@@ -244,3 +244,5 @@ out-verify*/
 packages/
 *.log
 *.bak-*
+
+dist/
