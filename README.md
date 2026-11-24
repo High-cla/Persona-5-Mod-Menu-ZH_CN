@@ -1,5 +1,5 @@
 > **简体中文版**：汉化补丁、BF 构建链与实测说明见 [README_zh-CN.txt](README_zh-CN.txt)；
-> 直接可用的成品包见 [Releases v1.0](https://github.com/High-cla/Persona-5-Mod-Menu-ZH_CN/releases/tag/v1.0)。
+> 直接可用的成品包见 [Releases](https://github.com/High-cla/Persona-5-Mod-Menu-ZH_CN/releases/latest)。
 
 # ATTENTION PC/SWITCH USERS
 **The latest update is not complete**, but a preview release for PC can be found [here](https://github.com/ShrineFox/Persona-5-Mod-Menu/releases/tag/1.9). Thank you for your patience.  
