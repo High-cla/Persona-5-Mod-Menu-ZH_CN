@@ -246,3 +246,5 @@ packages/
 *.bak-*
 
 dist/
+out-official/
+ModMenuBuilder_DebugLog.txt

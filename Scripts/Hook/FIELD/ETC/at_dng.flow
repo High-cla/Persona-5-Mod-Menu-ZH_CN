@@ -2,7 +2,7 @@
 import("../../../../Assets/Vanilla/field/etc/at_dng.bf");
 /* Vanilla End */
 /* Royal Start */
-import("../../../../Assets/Royal/field/etc/at_dng.bf");
+import("../../../../Assets/zh-CN/at_dng.chs.bf");
 /* Royal End */
 import("../../../ModMenu/ModMenu.flow");
 
