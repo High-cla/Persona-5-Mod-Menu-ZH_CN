@@ -1,4 +1,4 @@
-[msg Cutins]
+﻿[msg Cutins]
 [w][e]
 
 [msg Title_PartyCutins]
@@ -361,24 +361,24 @@ Left[e]
 
 [sel JokerSEL_0]
 [selTex 0]Glasses[e]
-Exit[e]
+退出[e]
 
 [sel JokerSEL_1]
 [selTex 1]Phantom Thief[e]
-Exit[e]
+退出[e]
 
 [sel JokerSEL_2]
 [selTex 2]Interrogation[e]
-Exit[e]
+退出[e]
 
 [sel JokerSEL_3]
 [selTex 3]No Glasses[e]
-Exit[e]
+退出[e]
 
 [sel JokerSEL_4]
 [selTex 4]Thinking Glasses[e]
-Exit[e]
+退出[e]
 
 [sel JokerSEL_5]
 [selTex 5]Steamed Glasses[e]
-Exit[e]
+退出[e]

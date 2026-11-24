@@ -138,6 +138,20 @@ namespace ModMenuBuilder
             DeleteTempFolder();
         }
 
+        private static void NormalizeCharset()
+        {
+            var map = new (char from, char to)[] { ('（','('), ('）',')'), ('？','?'), ('•','・'), ('鳳','凤') };
+            foreach (var f in Directory.GetFiles(tempDir, "*.msg", SearchOption.AllDirectories))
+            {
+                string t = File.ReadAllText(f);
+                string o = t;
+                foreach (var pair in map)
+                    t = t.Replace(pair.from, pair.to);
+                if (t != o)
+                    File.WriteAllText(f, t, new UTF8Encoding(true));
+            }
+        }
+
         private static void RepackPAC(string script)
         {
             if (Program.SelectedGame.Platform == PlatformType.Old)
@@ -250,7 +264,7 @@ namespace ModMenuBuilder
         private static void ReindexMsgs(string script)
         {
             // Get list of .msg files imported in scripts
-            var msgs = RecursivelyGetImports(script).Where(x => x.EndsWith(".msg")).ToList();
+            var msgs = RecursivelyGetImports(script).Where(x => x.EndsWith(".msg")).Distinct().ToList();
             // Create new .bf in output folder
             string outputScript = Compile(script);
             
@@ -385,7 +399,7 @@ namespace ModMenuBuilder
                         newLines.Add(line);
                 }
                 
-                File.WriteAllText(script, String.Join("\n", newLines), Encoding.Unicode);
+                File.WriteAllText(script, String.Join("\n", newLines), new UTF8Encoding(true));
             }
             else
                 Output.Log($"\tCould not find script to remove .msg comments from:\n  {script}", ConsoleColor.Red);
@@ -413,7 +427,7 @@ namespace ModMenuBuilder
                 }
 
                 text = RemoveBetween(text, "/*", "*/");
-                File.WriteAllText(script, text, Encoding.Unicode);
+                File.WriteAllText(script, text, new UTF8Encoding(true));
             }
             else
                 Output.Log($"\tCould not find script to remove .flow comments from:\n  {script}", ConsoleColor.Red);
@@ -469,7 +483,7 @@ namespace ModMenuBuilder
                         msgLines[i] = $"[dlg GENERIC_HELP_{index}]";
                 }
 
-                File.WriteAllText(msgFile, string.Join("\n", msgLines), Encoding.Unicode);
+                File.WriteAllText(msgFile, string.Join("\n", msgLines), new UTF8Encoding(true));
                 using (FileSys.WaitForFile(msgFile)) { }
             }
             else
@@ -478,6 +492,7 @@ namespace ModMenuBuilder
 
         private static string Compile(string script)
         {
+            NormalizeCharset();
             string outDir = Program.Options.Output;
             string outputFile = Path.Combine(outDir, Path.Combine(Path.GetDirectoryName(script), Path.GetFileNameWithoutExtension(script) + ".bf").Replace(Exe.Directory() + "\\Temp\\Hook\\", ""));
             Directory.CreateDirectory(Path.GetDirectoryName(outputFile));
@@ -505,7 +520,7 @@ namespace ModMenuBuilder
         private static void Decompile(string bf)
         {
             string[] args = new string[] {
-                $"\"{bf}\"", "-Deompile",
+                $"\"{bf}\"", "-Decompile",
                 "-Encoding", Program.Options.Encoding,
                 "-Library", Program.SelectedGame.ShortName
             };

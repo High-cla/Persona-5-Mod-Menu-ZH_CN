@@ -2,15 +2,15 @@
 [w][e]
 
 [dlg Title_Royal]
-Royal Menu[w][e]
+皇家版菜单[w][e]
 
 [sel Options_Royal]
-Go to Thieves Den[ref 0 3][e]
-Change Character[ref 1 4][e]
-View Videos[ref 2 5][e]
-View Music[ref 3 6][e]
-View Gallery[ref 4 7][e]
-Play Tycoon[ref 5 8][e]
+前往怪盗团基地[ref 0 3][e]
+更换角色[ref 1 4][e]
+查看影片[ref 2 5][e]
+查看音乐[ref 3 6][e]
+查看画廊[ref 4 7][e]
+游玩大富豪[ref 5 8][e]
 
 [dlg GENERIC_HELP_3]
 Warp to the Thieves Den when

@@ -2,14 +2,14 @@
 [w][e]
 
 [dlg Title_Stats]
-Select Stat Type...[w][e]
+选择属性类型……[w][e]
 
 [sel Options_Stats]
-Knowledge[ref 0 2][e]
-Charm[ref 1 3][e]
-Proficiency[ref 2 4][e]
-Guts[ref 3 5][e]
-Kindness[ref 4 6][e]
+知识[ref 0 2][e]
+魅力[ref 1 3][e]
+灵巧[ref 2 4][e]
+胆量[ref 3 5][e]
+体贴[ref 4 6][e]
 
 [dlg GENERIC_HELP_2]
 Increase your [clr 26]Knowledge[clr 0] stat
@@ -37,7 +37,7 @@ Increase your [clr 26]Kindness[clr 0] stat
 [n]points.[e]
 
 [dlg Message_StatsPoints]
-Add how many points?
+要增加多少点数？
 [n](3 digits, [clr 2]back button[clr 0] to end)[w][e] 
 
 [dlg Title_Points]

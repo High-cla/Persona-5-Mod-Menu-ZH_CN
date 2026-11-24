@@ -2,11 +2,11 @@
 [w][e]
 
 [dlg Title_FieldModels]
-Spawn Field Models[w][e]
+生成场景模型[w][e]
 
 [sel Options_FieldModels]
-Spawn Item Model[ref 0 2][e]
-Spawn Object Model[ref 1 3][e]
+生成道具模型[ref 0 2][e]
+生成物件模型[ref 1 3][e]
 
 [dlg GENERIC_HELP_2]
 Choose an item model to spawn

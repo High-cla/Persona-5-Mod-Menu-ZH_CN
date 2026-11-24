@@ -1,0 +1,11 @@
+{
+  "patchVersion": "0.2",
+  "game": "P5R_PC",
+  "language": "zh-CN",
+  "changedFiles": 37,
+  "personaNameRowsTranslated": 289,
+  "skillNameRowsTranslated": 779,
+  "otherLabelsTranslated": 262,
+  "unmappedPersonaNames": [],
+  "unmappedSkillNames": []
+}

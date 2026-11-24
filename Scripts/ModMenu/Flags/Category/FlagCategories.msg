@@ -5,11 +5,11 @@
 Flag Categories[w][e]
 
 [sel Options_FlagCategories]
-HUD Flags[ref 0 2][e]
-Party Flags[ref 1 3][e]
-Persona Flags[ref 2 4][e]
-Room Flags[ref 3 5][e]
-Map Flags[ref 4 6][e]
+HUD 标志位[ref 0 2][e]
+队伍标志位[ref 1 3][e]
+人格面具标志位[ref 2 4][e]
+房间标志位[ref 3 5][e]
+地图标志位[ref 4 6][e]
 
 [dlg GENERIC_HELP_2]
 Choose flags to toggle that

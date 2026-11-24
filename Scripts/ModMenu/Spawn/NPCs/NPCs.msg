@@ -2,14 +2,14 @@
 [w][e]
 
 [dlg Title_SpawnNPCs]
-Spawn NPCs[w][e]
+生成 NPC[w][e]
 
 [sel Options_SpawnNPCs]
 Spawn Model[ref 0 2][e]
-Animate Model[ref 1 3][e]
-Set Model Scale[ref 2 4][e]
-Attach Item Model[ref 3 5][e]
-Spawn Object Model[ref 4 6][e]
+播放模型动画[ref 1 3][e]
+设置模型大小[ref 2 4][e]
+附加道具模型[ref 3 5][e]
+生成物件模型[ref 4 6][e]
 
 [dlg GENERIC_HELP_2]
 Input a [clr 9]GMD filename[clr 0]

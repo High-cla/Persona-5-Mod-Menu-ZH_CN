@@ -2,11 +2,11 @@
 [w][e]
 
 [dlg Title_HUDFlags]
-HUD Flags[w][e]
+HUD 标志位[w][e]
 
 [sel Options_HUDFlags]
-Toggle HUD[ref 0 2][e]
-Invert HUD[ref 1 3][e]
+切换 HUD 显示[ref 0 2][e]
+反转 HUD 颜色[ref 1 3][e]
 
 [dlg GENERIC_HELP_2]
 Toggle the date, weather,

@@ -2,18 +2,18 @@
 [w][e]
 
 [dlg Title_Items]
-Select Item Type...[w][e]
+选择道具类型……[w][e]
 
 [sel Options_Items]
-Consumables[ref 0 2][e]
-Accessories[ref 1 3][e]
-Key Items[ref 2 4][e]
-Ranged Weapons[ref 3 5][e]
-Melee Weapons[ref 4 6][e]
-Outfits[ref 5 7][e]
-Armor[ref 6 8][e]
-Materials[ref 7 9][e]
-Skill Cards[ref 8 10][e]
+消耗品[ref 0 2][e]
+饰品[ref 1 3][e]
+重要道具[ref 2 4][e]
+远程武器[ref 3 5][e]
+近战武器[ref 4 6][e]
+服装[ref 5 7][e]
+防具[ref 6 8][e]
+素材[ref 7 9][e]
+技能卡[ref 8 10][e]
 
 [dlg GENERIC_HELP_2]
 Items that recover HP & SP,

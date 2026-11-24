@@ -2,14 +2,14 @@
 [w][e]
 
 [dlg Title_FontTest]
-Font Test[w][e]
+字体测试[w][e]
 
 [sel Options_FontTest]
-Sample Text[ref 0 2][e]
-Uppercase[ref 1 3][e]
-Lowercase[ref 2 4][e]
-Symbols[ref 3 5][e]
-All-in-One[ref 4 6][e]
+示例文本[ref 0 2][e]
+大写字母[ref 1 3][e]
+小写字母[ref 2 4][e]
+符号[ref 3 5][e]
+全部字符[ref 4 6][e]
 
 [dlg GENERIC_HELP_2]
 Print a sample sentence

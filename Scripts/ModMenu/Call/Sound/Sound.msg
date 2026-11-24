@@ -2,12 +2,12 @@
 [w][e]
 
 [dlg Title_SoundTest]
-Sound Test[w][e]
+音效测试[w][e]
 
 [sel Options_SoundTest]
-Select BGM[ref 0 2][e]
-Stop BGM[ref 1 3][e]
-Start BGM[ref 2 4][e]
+选择背景音乐[ref 0 2][e]
+停止背景音乐[ref 1 3][e]
+播放背景音乐[ref 2 4][e]
 
 [dlg GENERIC_HELP_2]
 Enter a BGM ID to play.[n][e]

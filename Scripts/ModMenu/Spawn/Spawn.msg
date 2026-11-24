@@ -5,9 +5,9 @@
 Spawn Menu[w][e]
 
 [sel Options_Spawn]
-NPC Model[ref 0 2][e]
-Field Model[ref 1 3][e]
-Particle Effect[ref 2 4][e]
+NPC 模型[ref 0 2][e]
+场景模型[ref 1 3][e]
+粒子效果[ref 2 4][e]
 
 [dlg GENERIC_HELP_2]
 Input a [clr 9].GMD filename[clr 0]

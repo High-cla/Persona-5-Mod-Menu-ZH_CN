@@ -2,7 +2,7 @@
 [w][e]
 
 [dlg Title_RoomFlags]
-Room Flags[w][e]
+房间标志位[w][e]
 
 [sel Options_RoomFlags]
 Collectibles Flags[ref 0 2][e]

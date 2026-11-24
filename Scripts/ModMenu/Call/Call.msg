@@ -2,19 +2,19 @@
 [w][e]
 
 [dlg Title_Call]
-Call...[w][e]
+调用……[w][e]
 
 [sel Options_Call]
-Battle[ref 0 2][e]
-Field[ref 1 3][e]
-Event[ref 2 4][e]
-Cut-in[ref 3 5][e]
-Font Test[ref 4 6][e]
-Sound Test[ref 5 7][e]
-Chat[ref 6 8][e]
-Shop[ref 7 9][e]
-Timer[ref 8 10][e]
-Tutorial[ref 9 11][e]
+战斗[ref 0 2][e]
+场景[ref 1 3][e]
+事件[ref 2 4][e]
+对话特写[ref 3 5][e]
+字体测试[ref 4 6][e]
+音效测试[ref 5 7][e]
+聊天[ref 6 8][e]
+商店[ref 7 9][e]
+计时器[ref 8 10][e]
+教程[ref 9 11][e]
 
 [dlg GENERIC_HELP_2]
 Choose a type of battle
@@ -58,4 +58,4 @@ Enter the Id of a tutorial
 [n]to trigger.[e]
 
 [dlg Title_Seconds]
-Seconds[w][e]
+秒数[w][e]

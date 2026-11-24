@@ -2,12 +2,12 @@
 [w][e]
 
 [dlg Title_PlayerModel]
-Player Model[w][e]
+玩家模型[w][e]
 
 [sel Options_PlayerModel]
-Set Joker Field Model[ref 0 2][e]
-Set Joker Model Scale[ref 1 3][e]
-Attach Item Model to Joker[ref 2 4][e]
+设置主角场景模型[ref 0 2][e]
+设置主角模型大小[ref 1 3][e]
+将道具模型附加到主角[ref 2 4][e]
 
 [dlg GENERIC_HELP_2]
 Select one of the protagonist's

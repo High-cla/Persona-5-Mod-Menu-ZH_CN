@@ -2,15 +2,15 @@
 [w][e]
 
 [dlg Title_MapFlags]
-Map Flags[w][e]
+地图标志位[w][e]
 
 [sel Options_MapFlags]
 Unset Tired Status[ref 0 3][e]
-Set Hideout[ref 1 4][e]
-Enable Fast Travel[ref 2 5][e]
-Enable Hangout Spots[ref 3 6][e]
-Enable Going Out At Night[ref 4 7][e]
-Enable Thieves Den[ref 5 8][e]// Royal
+设置集合地点[ref 1 4][e]
+启用快速旅行[ref 2 5][e]
+启用约会地点[ref 3 6][e]
+启用夜间外出[ref 4 7][e]
+启用怪盗团基地[ref 5 8][e]// Royal
 
 [dlg GENERIC_HELP_3]
 Make it so you can do
@@ -42,7 +42,7 @@ Enable the ability to
 [n]enter the Thieves Den.[e]
 
 [dlg Title_Hideout]
-Set Hideout[w][e]
+设置集合地点[w][e]
 
 [sel Options_Hideout]
 School Rooftop[e]

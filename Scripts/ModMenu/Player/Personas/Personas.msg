@@ -2,13 +2,13 @@
 [w][e]
 
 [dlg Title_Personas]
-Personas[w][e]
+人格面具[w][e]
 
 [sel Options_Personas]
-Add Persona[ref 0 2][e]
-Delete Personas[ref 1 3][e]
-Unlock Full Compendium[ref 2 4][e]
-Evolve Persona[ref 3 5][e]
+添加人格面具[ref 0 2][e]
+删除人格面具[ref 1 3][e]
+解锁完整人格面具全书[ref 2 4][e]
+人格面具进化[ref 3 5][e]
 
 [dlg GENERIC_HELP_2]
 Input a Persona's name or ID
@@ -31,9 +31,9 @@ Evolve a party member's Persona
 Add Personas[w][e]
 
 [sel Options_AddPersonas]
-Add Persona (Alphabetical)[e]
-Add Persona (Reserves)[e]
-Add Persona (Manual Input)[e]
+添加人格面具（按字母排序）[e]
+添加人格面具（预备列表）[e]
+添加人格面具（手动输入）[e]
 
 [dlg Message_AddPersonaByID]
 Input the ID of the Persona to add.

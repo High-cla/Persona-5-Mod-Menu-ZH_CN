@@ -5,11 +5,11 @@
 Player Appearance[w][e]
 
 [sel Options_PlayerAppearance]
-Set Joker Model[ref 0 2][e]
-Set Joker GAP[ref 1 3][e]
-Toggle Bag[ref 2 4][e]
-Toggle Morgana[ref 3 5][e]
-Toggle Umbrella[ref 4 6][e]
+设置主角模型[ref 0 2][e]
+设置主角 GAP[ref 1 3][e]
+切换手提包显示[ref 2 4][e]
+切换摩尔加纳显示[ref 3 5][e]
+切换雨伞显示[ref 4 6][e]
 
 [dlg GENERIC_HELP_2]
 Select one of the protagonist's

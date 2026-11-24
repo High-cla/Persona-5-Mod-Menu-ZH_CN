@@ -236,3 +236,11 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# ---- 本地构建/调试产物（不入库） ----
+.dsh-test/
+out-zh-cn*/
+out-verify*/
+packages/
+*.log
+*.bak-*

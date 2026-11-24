@@ -2,12 +2,12 @@
 [w][e]
 
 [dlg Title_Skills]
-Skills[w][e]
+技能[w][e]
 
 [sel Options_Skills]
-Add Skill (Alphabetical)[e]
-Add Skill (Manual Input)[e]
-Add Skill (Reserves)[e] 
+添加技能（按字母排序）[e]
+添加技能（手动输入）[e]
+添加技能（预备列表）[e] 
 
 [dlg Message_AddSkillByID]
 Input the ID of the Skill to add.

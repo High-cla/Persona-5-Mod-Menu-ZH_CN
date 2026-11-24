@@ -2,14 +2,14 @@
 [w][e]
 
 [dlg Title_Fields]
-Call Field[w][e]
+调用场景[w][e]
 
 [sel Options_Fields]
-Load Field[ref 0 3][e]
-Load Field (Manual Input)[ref 1 4][e]
-Reload Current Field[ref 2 5][e]
-Load Mementos Floor[ref 3 6][e]
-Load Mementos Floor (Manual Input)[ref 4 7][e]
+加载场景[ref 0 3][e]
+加载场景（手动输入）[ref 1 4][e]
+重新加载当前场景[ref 2 5][e]
+加载印象空间楼层[ref 3 6][e]
+加载印象空间楼层（手动输入）[ref 4 7][e]
 
 [dlg GENERIC_HELP_3]
 Choose a field to load

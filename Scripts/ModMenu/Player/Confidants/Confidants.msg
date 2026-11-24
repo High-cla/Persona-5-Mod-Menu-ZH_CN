@@ -2,12 +2,12 @@
 [w][e]
 
 [dlg Title_Confidants]
-Confidants[w][e]
+协助者[w][e]
 
 [sel Options_Confidants]
-Set Rank[ref 0 2][e]
-Toggle Romance Route[ref 1 3][e]
-Set Friendzone Id[ref 2 4][e]
+设置等级[ref 0 2][e]
+切换恋爱路线[ref 1 3][e]
+设置友情路线 ID[ref 2 4][e]
 
 [dlg GENERIC_HELP_2]
 Choose a Confidant and

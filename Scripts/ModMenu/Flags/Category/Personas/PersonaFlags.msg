@@ -2,4 +2,4 @@
 [w][e]
 
 [dlg Title_PersonaFlags]
-Persona Flags[w][e]
+人格面具标志位[w][e]

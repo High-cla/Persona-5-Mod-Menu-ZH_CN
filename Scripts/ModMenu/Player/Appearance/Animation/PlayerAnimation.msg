@@ -2,7 +2,7 @@
 [w][e]
 
 [dlg Title_PlayerAnimation]
-Player Animation[w][e]
+玩家动画[w][e]
 
 [dlg Title_FldGAPID]
 Field GAP ID (3 Digits)[w][e]
@@ -17,13 +17,13 @@ Anim Length (2 Digits)[w][e]
 Animation Index (2 Digits)[w][e]
 
 [sel Options_PlayerAnimation]
-Set Joker Field .GAP[ref 0 2][e]
-Set Animation Test GAP[ref 1 3][e]
-Set Test Animation Index[ref 2 4][e]
-Toggle Animation Loop[ref 3 5][e]
-Set Animation Speed[ref 4 6][e]
-Set Animation Time[ref 5 7][e]
-Playback Test Animation[ref 6 8][e]
+设置主角场景动画 .GAP[ref 0 2][e]
+设置动画测试 GAP[ref 1 3][e]
+设置测试动画序号[ref 2 4][e]
+切换动画循环[ref 3 5][e]
+设置动画速度[ref 4 6][e]
+设置动画时长[ref 5 7][e]
+播放测试动画[ref 6 8][e]
 
 [dlg GENERIC_HELP_2]
 Select one of the protagonist's

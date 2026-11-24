@@ -2,7 +2,7 @@
 [w][e]
 
 [dlg Title_Events]
-Call Event[w][e]
+调用事件[w][e]
 
 [sel Options_Events]
 Enter Event ID[ref 0 2][e]

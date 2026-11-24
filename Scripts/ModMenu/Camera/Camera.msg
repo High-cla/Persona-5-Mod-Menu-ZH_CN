@@ -2,14 +2,14 @@
 [w][e]
 
 [dlg Title_Camera]
-Camera[w][e]
+摄像机[w][e]
 
 [sel Options_Camera]
-Reposition Camera[ref 0 3][e]
-Adjust FOV/Zoom[ref 1 4][e]
-Unlock Camera[ref 2 5][e]
-Lock Camera[ref 3 6][e]
-Disable Camera Shake[ref 4 7][e]
+调整摄像机位置[ref 0 3][e]
+调整视野角度 / 缩放[ref 1 4][e]
+解除摄像机锁定[ref 2 5][e]
+锁定摄像机[ref 3 6][e]
+关闭摄像机震动[ref 4 7][e]
 
 [dlg GENERIC_HELP_3]
 Move the camera along XYZ axis,

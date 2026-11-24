@@ -2,17 +2,17 @@
 [w][e]
 
 [dlg Title_PartyFlags]
-Party Flags[w][e]
+队伍标志位[w][e]
 
 [sel Options_PartyFlags]
-Toggle Party Member Unlocked[ref 0 2][e]
-Toggle Party Editing[ref 1 3][e]
-Set Navigator[ref 2 4][e]
-Toggle Party Follower[ref 3 5][e]
-Toggle Baton Pass[ref 4 6][e]
-Toggle Black Mask Akechi[ref 5 7][e]// Royal
-Toggle Yoshizawa's Name[ref 6 8][e]// Royal
-Toggle Showtime[ref 7 9][e]// Royal
+切换队友解锁状态[ref 0 2][e]
+切换队伍编辑[ref 1 3][e]
+设置导航角色[ref 2 4][e]
+切换队友跟随[ref 3 5][e]
+切换接力[ref 4 6][e]
+切换黑面具明智[ref 5 7][e]// Royal
+切换芳泽的姓名[ref 6 8][e]// Royal
+切换 Show Time[ref 7 9][e]// Royal
 
 [dlg GENERIC_HELP_2]
 Toggle whether a party
@@ -42,7 +42,7 @@ Toggle Akechi's appearance
 [n]in battle.[e]
 
 [dlg GENERIC_HELP_8]
-Toggle Yoshizawa's name
+切换芳泽的姓名
 [n]and appearance as
 [n]Sumire.[e]
 
@@ -72,7 +72,7 @@ Baton Pass Rank[w][e]
 4[e]
 
 [dlg Title_Showtime]
-Toggle Showtime[w][e]
+切换 Show Time[w][e]
 
 [sel Options_Showtime]
 Ann/Morgana[e]

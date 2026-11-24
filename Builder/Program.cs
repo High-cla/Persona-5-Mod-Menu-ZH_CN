@@ -119,7 +119,15 @@ namespace ModMenuBuilder
                 $"\n\tVersion string: {Options.Version}\n\n");
 
             // Begin building Mod Menu output
-            MenuBuilder.Build();
+            try
+            {
+                MenuBuilder.Build();
+            }
+            catch (Exception ex)
+            {
+                Output.Log("Unhandled exception during build:" + Environment.NewLine + ex.ToString());
+                Environment.ExitCode = 1;
+            }
         }
 
         const int SW_HIDE = 0;

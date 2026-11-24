@@ -5,16 +5,16 @@
 Amicitia Mod Menu[w][e]
 
 [sel Options_ModMenu]
-Phone/Auto-Recover[ref 0 1][e]
-Player[ref 1 2][e]
-Teleport[ref 2 3][e]
-Call...[ref 3 4][e]
-Calendar[ref 4 5][e]
-Camera[ref 5 6][e]
-Flags[ref 6 7][e]
-Spawn[ref 7 8][e]
-About[ref 8 9][e]
-Royal[ref 9 10][e]// Royal
+手机 / 自动恢复[ref 0 1][e]
+玩家[ref 1 2][e]
+传送[ref 2 3][e]
+调用……[ref 3 4][e]
+日历[ref 4 5][e]
+摄像机[ref 5 6][e]
+标志位[ref 6 7][e]
+生成[ref 7 8][e]
+关于[ref 8 9][e]
+皇家版[ref 9 10][e]// Royal
 
 [dlg GENERIC_HELP_1]
 View your IM messages[n]or auto heal the party,

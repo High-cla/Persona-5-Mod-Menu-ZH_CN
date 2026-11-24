@@ -5,13 +5,13 @@
 Spawn Particle[w][e]
 
 [sel Options_Particles]
-Automatic Particle Selection[ref 0 2][e]
-Manual Particle Selection[ref 1 3][e]
-Set Params to Default[ref 2 4][e]
-Set Effect Size[ref 3 5][e]
-Set Effect Speed[ref 4 6][e]
-Set Effect Position[ref 5 7][e]
-Set Effect Translucency[ref 6 8][e]
+自动选择粒子效果[ref 0 2][e]
+手动选择粒子效果[ref 1 3][e]
+恢复默认参数[ref 2 4][e]
+设置效果大小[ref 3 5][e]
+设置效果速度[ref 4 6][e]
+设置效果位置[ref 5 7][e]
+设置效果透明度[ref 6 8][e]
 
 [dlg GENERIC_HELP_2]
 Preview EPL's placed inside
